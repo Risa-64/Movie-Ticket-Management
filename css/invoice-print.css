@@ -1,0 +1,117 @@
+
+ul.to_do {
+    padding: 0
+}
+ul.to_do li {
+    background: #f3f3f3;
+    border-radius: 3px;
+    position: relative;
+    padding: 7px;
+    margin-bottom: 3px;
+    list-style: none
+}
+ul.to_do p {
+    margin: 0
+}
+
+.print-invoice h1{
+    font-size: 26px !important;
+}
+
+@media print{
+    .print-invoice{
+      /*margin-top: -25px !important;*/
+    } 
+    .invoice_border{
+        padding: 6px;
+        /*border:1px solid #eaeaea;*/
+        /*margin-top: -25px !important;*/
+    }
+    .invoice-list{
+        padding: 5px;
+    }
+    .invoice-header h1{
+        padding-top: 3px;
+        font-size: 15px !important;
+    }
+    .table{
+        font-size: 10px !important;
+    }
+    .table-responsive {
+        overflow: auto;
+    }
+    .table-responsive > .table tr th,
+    .table-responsive > .table tr td {
+        white-space: normal !important;
+    }
+    .to_do{
+        text-align: center;
+    }
+
+    h4{
+        font-size: 11px !important;
+        padding: 0px;
+    }
+
+    header,footer,.posqty,.top_nav,.nav_menu,.left_col,.mobile-hide,.box-header,.print-button,.box-footer {
+        display: none ;
+    }
+
+    .header , .site-footer{
+        min-height: 0;
+    }
+
+    #main-content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    td a{
+        display: none;
+    }
+    .invoice-header{
+        margin-top: -30px !important;
+    }
+    .invoice_gap{
+        padding: 1px;
+    }
+    .invoice_divider{
+        border-top: 1px solid #cacaca;
+    }
+    .invoice-btn{
+        display: none;
+    }
+    .invoice-btn a{
+        display: none;
+    }
+ 
+    .print-invoice{
+        /*width:268px !important;  */
+        font-size: 11px !important;
+        margin:0;
+    }
+    .amounts{
+        text-align: left !important;
+    }
+    .to_do{
+        text-align: left !important;
+        font-size: 9px !important;
+    }
+
+     ul.to_do li {
+        margin-bottom: -9px;
+    }
+    .table>tbody>tr>td {
+        padding: 5px;
+    }
+    .table{
+        margin:0;
+    }
+    .thankYou{
+        margin-top: 7px;
+        display: block;
+    }
+}
+
+
